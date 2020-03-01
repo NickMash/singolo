@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d3c5ca9-5bb3-4d53-a0c9-fcce3f633471" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/singolo2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/singolo2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="singolo2.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="singolo2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/singolo2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1084">
-              <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+            <state relative-caret-position="42">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="singolo2.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="singolo2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/singolo2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="143" column="18" lean-forward="true" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+            <state relative-caret-position="396">
+              <caret line="411" lean-forward="true" selection-start-line="411" selection-end-line="411" />
             </state>
           </provider>
         </entry>
@@ -132,25 +131,24 @@
       <workItem from="1582742807490" duration="9775000" />
       <workItem from="1582811684794" duration="22448000" />
       <workItem from="1583052271289" duration="6141000" />
-      <workItem from="1583064926714" duration="19315000" />
+      <workItem from="1583064926714" duration="19835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58223000" />
+    <option name="totallyTimeSpent" value="58743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21805702" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21805702" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32946634" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32946634" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -250,17 +248,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singolo2.html">
+    <entry file="file://$PROJECT_DIR$/singolo2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1084">
-          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        <state relative-caret-position="396">
+          <caret line="411" lean-forward="true" selection-start-line="411" selection-end-line="411" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singolo2.css">
+    <entry file="file://$PROJECT_DIR$/singolo2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="143" column="18" lean-forward="true" selection-start-line="143" selection-start-column="18" selection-end-line="143" selection-end-column="18" />
+        <state relative-caret-position="42">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
