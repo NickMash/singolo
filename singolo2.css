@@ -42,6 +42,7 @@ html, body {
     -ms-flex-direction: column;
     flex-direction: column;
     max-width: 1020px;
+    min-height: 864px;
     background: #2d303a;
 }
 
@@ -138,6 +139,12 @@ html, body {
     border: 1px solid #c5c5c5;
 }
 
+@media (max-width:480px) {
+    .portfolio__works {
+        justify-content: center;
+    }
+}
+
 .portfolio__works {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -222,8 +229,8 @@ html, body {
 }
 
 .work:nth-child(12) {
-     background: url(assets/image_12.png);
-     background-size: cover;
+    background: url(assets/image_12.png);
+    background-size: cover;
 }
 
 .work:nth-child(n+13) {
@@ -253,6 +260,7 @@ html, body {
 }
 
 .portfolio__bottom-line {
+    -ms-flex-negative: 0;
     flex-shrink: 0;
     width: 1020px;
     height: 6px;
@@ -260,9 +268,15 @@ html, body {
 }
 
 .about-us {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     max-width: 1020px;
+    min-height: 728px;
     background: #f2f2f2;
 }
 
@@ -292,15 +306,27 @@ html, body {
 }
 
 .about-us__members {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 44px 40px 0 40px;
 }
 
 .member {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    width: 300px;
     max-width: 300px;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -357,6 +383,8 @@ html, body {
 }
 
 .member__social {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 24px 0 67px 0;
 }
@@ -404,6 +432,7 @@ html, body {
 }
 
 .about-us__bottom-line {
+    -ms-flex-negative: 0;
     flex-shrink: 0;
     width: 1020px;
     height: 6px;
