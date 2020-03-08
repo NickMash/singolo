@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d3c5ca9-5bb3-4d53-a0c9-fcce3f633471" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/singolo3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singolo3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singolo2.css" beforeDir="false" afterPath="$PROJECT_DIR$/singolo2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/singolo2.html" beforeDir="false" afterPath="$PROJECT_DIR$/singolo2.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,26 +22,61 @@
       <file leaf-file-name="singolo2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/singolo2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2310">
-              <caret line="110" column="30" lean-forward="true" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+            <state relative-caret-position="449">
+              <caret line="104" selection-start-line="104" selection-end-line="109" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="singolo2.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="singolo2.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/singolo2.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="434" lean-forward="true" selection-start-line="434" selection-end-line="434" />
+            <state relative-caret-position="189">
+              <caret line="384" selection-start-line="384" selection-end-line="427" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="singolo1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/singolo1.css">
+      <file leaf-file-name="singolo3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/singolo3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="286">
+              <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+              <folding>
+                <element signature="e#2773#2779#0" expanded="true" />
+                <element signature="e#2779#2785#0" expanded="true" />
+                <element signature="e#2785#2791#0" expanded="true" />
+                <element signature="e#2791#2797#0" expanded="true" />
+                <element signature="e#2797#2803#0" expanded="true" />
+                <element signature="e#2803#2809#0" expanded="true" />
+                <element signature="e#2809#2815#0" expanded="true" />
+                <element signature="e#3015#3021#0" expanded="true" />
+                <element signature="e#2922#2928#0" expanded="true" />
+                <element signature="e#2928#2934#0" expanded="true" />
+                <element signature="e#2934#2940#0" expanded="true" />
+                <element signature="e#2940#2946#0" expanded="true" />
+                <element signature="e#2946#2952#0" expanded="true" />
+                <element signature="e#2952#2958#0" expanded="true" />
+                <element signature="e#2958#2964#0" expanded="true" />
+                <element signature="e#3256#3262#0" expanded="true" />
+                <element signature="e#3256#3262#0" expanded="true" />
+                <element signature="e#3068#3074#0" expanded="true" />
+                <element signature="e#3074#3080#0" expanded="true" />
+                <element signature="e#3080#3086#0" expanded="true" />
+                <element signature="e#3086#3092#0" expanded="true" />
+                <element signature="e#3092#3098#0" expanded="true" />
+                <element signature="e#3098#3104#0" expanded="true" />
+                <element signature="e#3104#3110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="singolo3.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/singolo3.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="260" column="23" selection-start-line="260" selection-start-column="23" selection-end-line="260" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -50,9 +86,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>border</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,8 +103,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/singolo1.css" />
-        <option value="$PROJECT_DIR$/singolo2.html" />
         <option value="$PROJECT_DIR$/singolo2.css" />
+        <option value="$PROJECT_DIR$/singolo2.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/singolo3.html" />
+        <option value="$PROJECT_DIR$/singolo3.css" />
       </list>
     </option>
   </component>
@@ -76,7 +121,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="868" />
+    <option name="width" value="1008" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -84,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,14 +137,19 @@
               <item name="singolo" type="b2602c69:ProjectViewProjectNode" />
               <item name="singolo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="singolo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="singolo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -137,18 +188,20 @@
       <workItem from="1582742807490" duration="9775000" />
       <workItem from="1582811684794" duration="22448000" />
       <workItem from="1583052271289" duration="6141000" />
-      <workItem from="1583064926714" duration="24910000" />
+      <workItem from="1583064926714" duration="25445000" />
+      <workItem from="1583428299407" duration="4126000" />
+      <workItem from="1583571104960" duration="23282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63818000" />
+    <option name="totallyTimeSpent" value="91761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21805702" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30200633" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -193,6 +246,34 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/singolo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singolo2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1806">
+          <caret line="86" column="31" lean-forward="true" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singolo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singolo2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/singolo2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -248,13 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singolo1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1043">
-          <caret line="110" column="10" lean-forward="true" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/singolo1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -262,17 +336,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/singolo2.html">
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/singolo1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
-          <caret line="110" column="30" lean-forward="true" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+          <caret line="110" column="10" lean-forward="true" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singolo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="104" selection-start-line="104" selection-end-line="109" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singolo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+          <folding>
+            <element signature="e#2773#2779#0" expanded="true" />
+            <element signature="e#2779#2785#0" expanded="true" />
+            <element signature="e#2785#2791#0" expanded="true" />
+            <element signature="e#2791#2797#0" expanded="true" />
+            <element signature="e#2797#2803#0" expanded="true" />
+            <element signature="e#2803#2809#0" expanded="true" />
+            <element signature="e#2809#2815#0" expanded="true" />
+            <element signature="e#3015#3021#0" expanded="true" />
+            <element signature="e#2922#2928#0" expanded="true" />
+            <element signature="e#2928#2934#0" expanded="true" />
+            <element signature="e#2934#2940#0" expanded="true" />
+            <element signature="e#2940#2946#0" expanded="true" />
+            <element signature="e#2946#2952#0" expanded="true" />
+            <element signature="e#2952#2958#0" expanded="true" />
+            <element signature="e#2958#2964#0" expanded="true" />
+            <element signature="e#3256#3262#0" expanded="true" />
+            <element signature="e#3256#3262#0" expanded="true" />
+            <element signature="e#3068#3074#0" expanded="true" />
+            <element signature="e#3074#3080#0" expanded="true" />
+            <element signature="e#3080#3086#0" expanded="true" />
+            <element signature="e#3086#3092#0" expanded="true" />
+            <element signature="e#3092#3098#0" expanded="true" />
+            <element signature="e#3098#3104#0" expanded="true" />
+            <element signature="e#3104#3110#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/singolo2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="434" lean-forward="true" selection-start-line="434" selection-end-line="434" />
+        <state relative-caret-position="189">
+          <caret line="384" selection-start-line="384" selection-end-line="427" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singolo3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="260" column="23" selection-start-line="260" selection-start-column="23" selection-end-line="260" selection-end-column="23" />
         </state>
       </provider>
     </entry>
