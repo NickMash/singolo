@@ -3,6 +3,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -21,6 +22,35 @@ html, body {
     url(assets/Lato-Heavy.woff) format('woff'),
     url(assets/Lato-Heavy.ttf) format('truetype');
     font-style: normal;
+}
+
+.up_button {
+    display: inline-block;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: url(assets/up_button.png);
+    background-size: cover;
+    margin-left: 1040px;
+    margin-top: 800px;
+    opacity: 0.3;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.up_button:hover {
+    display: inline-block;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: url(assets/up_button.png);
+    background-size: cover;
+    margin-left: 1040px;
+    margin-top: 800px;
+    opacity: 1;
+    cursor: pointer;
 }
 
 .sing__container {
@@ -59,7 +89,7 @@ html, body {
 
 .nav__section {
     position: absolute;
-    padding-left: 24.3%;
+    padding-left: 460px;
     padding-top: 1.65%;
     display: inline-block;
     font-family: Lato-Light;
@@ -71,6 +101,7 @@ html, body {
     color: white;
     margin-right: 8.5pt;
     letter-spacing: 0.3pt;
+    text-decoration: none;
     -webkit-transition: all 0.2s ease;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
@@ -79,13 +110,17 @@ html, body {
 
 .nav__name:hover {
     font-size: 110%;
-    color: white;
     letter-spacing: 0.8pt;
     text-decoration: underline;
     cursor: pointer;
+    color: #f06c64;
 }
 
-.nav__name:first-child {
+.nav__name-click {
+    font-size: 110%;
+    letter-spacing: 0.8pt;
+    text-decoration: underline;
+    cursor: pointer;
     color: #f06c64;
 }
 
