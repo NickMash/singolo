@@ -145,7 +145,6 @@ html, body {
 .slider__container {
     width: 100%;
     height: 594px;
-    background-color: #f06c64;
 }
 
 .slider__left-arrow {
@@ -156,6 +155,7 @@ html, body {
     width: 16px;
     height: 27px;
     background: url(assets/left_arrow.png);
+    z-index: 1;
 }
 
 .slider__left-arrow:hover {
@@ -172,6 +172,97 @@ html, body {
     -moz-transition: all 0.15s ease;
     -o-transition: all 0.15s ease;
     transition: all 0.15s ease;
+}
+
+.slide:nth-child(1) {
+    width: 100%;
+    height: 594px;
+    background-color: #f06c64;
+}
+
+.slide:nth-child(2) {
+    width: 100%;
+    height: 594px;
+    background: url(assets/Slide_2.png);
+    background-size: cover;
+}
+
+.phone_2 {
+    width: 229px;
+    height: 487px;
+    position: absolute;
+    margin-left: 383px;
+    margin-top: 43px;
+}
+
+.phone_2:hover {
+    width: 229px;
+    height: 487px;
+    position: absolute;
+    margin-left: 383px;
+    margin-top: 43px;
+    cursor: pointer;
+}
+
+.vertical-phone__wallpaper-2 {
+    width: 201px;
+    height: 354px;
+    background: url(assets/vertical_iphone_wallpaper_2.png);
+    background-size: cover;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 69px;
+}
+
+.turn_off {
+    width: 201px;
+    height: 354px;
+    background-color: black;
+    position: absolute;
+    margin-left: 14px;
+    margin-top: 69px;
+}
+
+.slider{
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.slideText {
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+
+
+.slider .slide {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
 }
 
 .slider__vertical-phone-shadow {
@@ -191,7 +282,25 @@ html, body {
     height: 458px;
 }
 
+.slider__vertical-phone:hover {
+    display: inline-block;
+    background: url(assets/iphone_vertical.png);
+    width: 215px;
+    height: 458px;
+    cursor: pointer;
+}
+
 .vertical-phone__wallpaper {
+    display: inline-block;
+    width: 188px;
+    height: 333px;
+    background: url(assets/vertical_iphone_wallpaper.png);
+    margin: 65px 0 0 14px;
+    background-size: cover;
+}
+
+.vertical-phone__wallpaper_turn_off {
+    display: none;
     width: 188px;
     height: 333px;
     background: url(assets/vertical_iphone_wallpaper.png);
@@ -217,7 +326,26 @@ html, body {
     height: 215px;
 }
 
+.slider__horizontal-phone:hover {
+    margin-left: -1px;
+    display: inline-block;
+    background: url(assets/iphone_horizontal.png);
+    width: 458px;
+    height: 215px;
+    cursor: pointer;
+}
+
 .horizontal-phone__wallpaper {
+    display: inline-block;
+    width: 333px;
+    height: 188px;
+    background: url(assets/horizontal_iphone_wallpaper.png);
+    margin: 14px 0 0 60px;
+    background-size: cover;
+}
+
+.horizontal-phone__wallpaper_turn_off {
+    display: none;
     width: 333px;
     height: 188px;
     background: url(assets/horizontal_iphone_wallpaper.png);
@@ -226,9 +354,10 @@ html, body {
 }
 
 .slider__right-arrow {
+    z-index: 1;
     display: inline-block;
     position: absolute;
-    margin-top: 281px;
+    margin-top: -313px;
     margin-left: 964px;
     width: 16px;
     height: 27px;
@@ -238,7 +367,7 @@ html, body {
 .slider__right-arrow:hover {
     display: inline-block;
     position: absolute;
-    margin-top: 279px;
+    margin-top: -315px;
     margin-left: 962px;
     width: 20px;
     height: 35px;

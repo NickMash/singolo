@@ -38,59 +38,66 @@ function active_contact() {
     document.getElementById("contact_link").classList.add('nav__name-click');
 }
 
-let controls = document.querySelectorAll('.controls');
-for(let i=0; i<controls.length; i++){
-    controls[i].style.display = 'inline-block';
+
+let slideIndex = 1;
+
+showSlides(slideIndex);
+
+function plusSlide() {
+    showSlides(slideIndex += 1);
 }
 
-let slides = document.querySelectorAll('#slides .slide');
-let currentSlide = 0;
-let slideInterval = setInterval(nextSlide,2000);
-
-function nextSlide(){
-    goToSlide(currentSlide+1);
+function minusSlide() {
+    showSlides(slideIndex -= 1);
 }
 
-function previousSlide(){
-    goToSlide(currentSlide-1);
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("slide");
+      if (n > slides.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slides[slideIndex - 1].style.display = "block";
+   }
+
+function changeWallpaperVertical() {
+    if (document.getElementById("vertical_wallpaper").classList.contains('vertical-phone__wallpaper')) {
+        document.getElementById("vertical_wallpaper").classList.add('vertical-phone__wallpaper_turn_off');
+        document.getElementById("vertical_wallpaper").classList.remove('vertical-phone__wallpaper');
+    }
+    else
+    {
+        document.getElementById("vertical_wallpaper").classList.remove('vertical-phone__wallpaper_turn_off');
+        document.getElementById("vertical_wallpaper").classList.add('vertical-phone__wallpaper');
+    }
 }
 
-function goToSlide(n){
-    slides[currentSlide].className = 'slide';
-    currentSlide = (n+slides.length)%slides.length;
-    slides[currentSlide].className = 'slide showing';
+function changeWallpaperHorizontal() {
+    if (document.getElementById("horizontal_wallpaper").classList.contains('horizontal-phone__wallpaper')) {
+        document.getElementById("horizontal_wallpaper").classList.add('horizontal-phone__wallpaper_turn_off');
+        document.getElementById("horizontal_wallpaper").classList.remove('horizontal-phone__wallpaper');
+    }
+    else
+    {
+        document.getElementById("horizontal_wallpaper").classList.remove('horizontal-phone__wallpaper_turn_off');
+        document.getElementById("horizontal_wallpaper").classList.add('horizontal-phone__wallpaper');
+    }
 }
 
-
-let playing = true;
-let pauseButton = document.getElementById('pause');
-
-function pauseSlideshow(){
-    pauseButton.innerHTML = '&#9658;'; // play character
-    playing = false;
-    clearInterval(slideInterval);
+function changeWallpaper2() {
+    if (document.getElementById("green_wallpaper").classList.contains('vertical-phone__wallpaper-2')) {
+        document.getElementById("green_wallpaper").classList.add('turn_off');
+        document.getElementById("green_wallpaper").classList.remove('vertical-phone__wallpaper-2');
+    }
+     else
+    {
+    document.getElementById("green_wallpaper").classList.remove('turn_off');
+    document.getElementById("green_wallpaper").classList.add('vertical-phone__wallpaper-2');
+    }
 }
-
-function playSlideshow(){
-    pauseButton.innerHTML = '&#10074;&#10074;'; // pause character
-    playing = true;
-    slideInterval = setInterval(nextSlide,4000);
-}
-
-pauseButton.onclick = function(){
-    if(playing){ pauseSlideshow(); }
-    else{ playSlideshow(); }
-};
-
-let next = document.getElementById('next');
-let previous = document.getElementById('previous');
-
-next.onclick = function(){
-    pauseSlideshow();
-    nextSlide();
-};
-previous.onclick = function(){
-    pauseSlideshow();
-    previousSlide();
-};
-
