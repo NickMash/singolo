@@ -7,41 +7,51 @@
 </head>
 <body>
 <div class="sing__container">
-    <header class="sing1__header">
+    <a class="up_button" href="#home"></a>
+    <header class="sing1__header" id="home">
         <div class="logo__section">
             <h1 class="logo_name">SINGOLO</h1>
             <p class="logo_asterisk">*</p>
         </div>
         <nav class="nav__section">
-            <a class="nav__name">HOME</a>
+            <a class="nav__name" href="#home" id="home_link" onclick="active_home()">HOME</a>
             <p class="nav__dot">&#183;</p>
-            <a class="nav__name">SERVICES</a>
+            <a class="nav__name" href="#services" id="services_link" onclick="active_services()">SERVICES</a>
             <p class="nav__dot">&#183;</p>
-            <a class="nav__name">PORTFOLIO</a>
+            <a class="nav__name" href="#portfolio" id="portfolio_link" onclick="active_portfolio()">PORTFOLIO</a>
             <p class="nav__dot">&#183;</p>
-            <a class="nav__name">ABOUT</a>
+            <a class="nav__name" href="#about" id="about_link" onclick="active_about()">ABOUT</a>
             <p class="nav__dot">&#183;</p>
-            <a class="nav__name">CONTACT</a>
+            <a class="nav__name" href="#contact" id="contact_link" onclick="active_contact()">CONTACT</a>
         </nav>
     </header>
     <div class="header__bottom-line"></div>
     <main class="main__container1">
         <div class="slider__container">
-            <div class="slider__left-arrow"></div>
-            <div class="slider__vertical-phone-shadow">
-                <div class="slider__vertical-phone">
-                    <div class="vertical-phone__wallpaper"></div>
+            <div class="slider__left-arrow prev" onclick="minusSlide()"></div>
+            <div class="slider">
+                <div class="slide slide_1">
+                    <div class="slider__vertical-phone-shadow">
+                        <div class="slider__vertical-phone" onclick="changeWallpaperVertical()">
+                            <div class="vertical-phone__wallpaper" id="vertical_wallpaper"></div>
+                        </div>
+                    </div>
+                    <div class="slider__horizontal-phone-shadow">
+                        <div class="slider__horizontal-phone" onclick="changeWallpaperHorizontal()">
+                            <div class="horizontal-phone__wallpaper" id="horizontal_wallpaper"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide_2">
+                    <div class="phone_2" onclick="changeWallpaper2()">
+                        <div class="vertical-phone__wallpaper-2" id="green_wallpaper"></div>
+                    </div>
                 </div>
             </div>
-            <div class="slider__horizontal-phone-shadow">
-                <div class="slider__horizontal-phone">
-                    <div class="horizontal-phone__wallpaper"></div>
-                </div>
-            </div>
-            <div class="slider__right-arrow"></div>
+            <div class="slider__right-arrow next" onclick="plusSlide()"></div>
         </div>
         <div class="slider__bottom-line"></div>
-        <div class="our-services__container">
+        <div class="our-services__container" id="services">
             <h1 class="our-services__title">Our Services</h1>
             <p class="our-services__description">
                 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
@@ -109,7 +119,7 @@
         <div class="our-services__bottom-line"></div>
     </main>
 </div>
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
     <h1 class="portfolio__title">Portfolio</h1>
     <p class="portfolio__description">
         Duis mollis, est
@@ -146,7 +156,7 @@
     </div>
 </section>
 <div class="portfolio__bottom-line"></div>
-<section class="about-us">
+<section class="about-us" id="about">
     <h1 class="about-us__title">About Us</h1>
     <p class="about-us__description">
         Fusce dapibus, tellus ac cursus commodo,
@@ -215,7 +225,7 @@
     </div>
 </section>
 <div class="about-us__bottom-line"></div>
-<div class = main__container>
+<div class = main__container id="contact">
     <section class="get-a-quote">
         <h1 class="get-a-quote__title">Get a Quote</h1>
         <p class="get-a-quote__description">
@@ -291,6 +301,7 @@
         </div>
     </footer>
 </div>
+<script src="script.js"></script>
 <script>
     let button = document.getElementById('submit');
     button.addEventListener('click',function(){
